@@ -1,0 +1,137 @@
+/*      * {
+    outline: 1px solid red !important;
+    }*/
+
+
+.content{
+    display: flex;
+    padding: 3px 20px 5px 20px;
+}
+
+.icon{
+    height: 120px;
+    width: 190px;
+/*     padding: 10px 20px; */
+}
+
+p{
+    margin: 0 30px;
+    padding: 10px 0;
+    font-family: 'Lato light', sans-serif;
+    color: white;
+
+}
+.contentwhole{
+    margin: 80px 0;
+}
+.content_holder{
+    width: 70%;
+    height: 200px;
+    margin-left: 50px;
+    background-color:#96858F;
+/*    border-radius: 10px;*/
+    border: solid black 1px;
+    box-shadow: 3px 3px 10px black;
+    margin: 30px 300px ;
+}
+
+h2{
+    padding: 10px 20px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #A9A9A9;
+    text-decoration: underline;
+
+}
+
+body{
+    background-color: #D5D5D5;
+    margin: 0 0 0 0;
+}
+
+.more {
+    color: white;
+    margin: 10px 80%;
+    font-family: 'Lato light', sans-serif;
+    font-style: italic;
+
+}
+
+.sidenav {
+
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6D7993;
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #111;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav h1 {
+    padding: 8px 8px 8px 32px;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+
+.nav{
+    height: 60px;
+    width: 100%;
+    margin-left: 250px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+.title_bar{
+    margin: 0;
+    width: 200px;
+}
+
+.labels{
+    display: flex;
+    margin: 0 0 0 400px;
+}
+
+.labels a{
+    margin: 0 20px;
+    font-family: 'Lato light', sans-serif;
+}
+.title{
+    padding: 15px 20px;
+}
